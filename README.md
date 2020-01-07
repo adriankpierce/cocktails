@@ -2,8 +2,6 @@
 
 # Data-Driven Cocktails
 
-## Introduction
-
 The world of craft cocktails is mysterious. Cocktail books often boast thousands of recipes containing exotic spirits, syrups, and combinations of other ingredients, with little theory to support how these recipes were created or why these recipes work.
 
 This project aims to explore craft cocktails through data science to demystify and make sense of this opaque landscape.
