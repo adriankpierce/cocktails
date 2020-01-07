@@ -130,7 +130,7 @@ Unfortunately, not much of this tool can be shown on a static GitHub page like t
 
 ### Optimize A Home Bar
 
-Given a budget of X Spirits or Liqueurs that one could buy, which combination would permit the most number of complete recipes to be made? Here are the results:
+Given a budget of X Spirits or Liqueurs that one could buy, which combination would permit the most number of complete recipes to be made? A non-linear solver was used to calculate the following results:
 
 
 | If I can only buy X number of Spirits/Liqueurs... | ...I should buy...                                                                                       | ...so that I can make Y number of complete recipes... |
