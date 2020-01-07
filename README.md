@@ -52,7 +52,7 @@ Data files have currently been excluded for copyright reasons (however, all note
 
 ## Key Insights
 
-For brevity, only select insights will be examined here. To explore all current insight, please refer to the “3-analysis” notebook.
+For brevity, only select insights will be examined here. To explore all current insights, please refer to the “3-analysis” notebook.
 
 ### Research Questions
 
@@ -147,7 +147,7 @@ Given a budget of X Spirits or Liqueurs that one could buy, which combination wo
 | 8                                                 | Other Rum, Bourbon Whiskey, Rye Whiskey, Herb Liqueur, Fruit Liqueur, Vermouth, Gold Rum, London Dry Gin | 123                                                   |
 
 
-## Generate Recipe Ideas
+### Generate Recipe Ideas
 
 Using a nearest-neighbor-style collaborative filtering recommender system, we can leverage patterns of which ingredients commonly appear together to build new recipe ideas.
 
