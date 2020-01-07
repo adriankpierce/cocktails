@@ -12,7 +12,7 @@ Currently, this project is a work in progress, however, this page will act as an
 
 ## The Analysis
 
-I am hoping to answer key questions that will provide insight into craft cocktails and additionally, create numerous useful tools to facilitate further exploration and experimentation:
+This analysis aims to answer key questions that will provide insight into craft cocktails and, additionally, create numerous useful tools to facilitate further exploration and experimentation:
 
 -   <b>Research Themes</b> (full question list below): We will first aim to better understand the ingredients used in cocktail recipes. What are they? How often are they used? Then we will explore the recipes themselves. How are ingredients combined to form recipes?
     
