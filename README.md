@@ -16,7 +16,7 @@ This analysis aims to answer key questions that will provide insight into craft 
     
 -   <b>What Can I Make?</b> This simple tool serves to answer a singular, practical question: given my current bar at home, which recipes can I make?
     
--   <b>Optimization Of A Home Bar</b> (aka. “What should I buy?”) Which combination of ingredients yields the greatest number of complete recipes that can be made? Essentially, if you could only buy X bottles, which would be the most optimal so that you can make the greatest number of craft cocktails?
+-   <b>Optimization of a Home Bar</b> (“What should I buy?”) Which combination of ingredients yields the greatest number of complete recipes that can be made? Essentially, if you could only buy X bottles, which would be the most optimal so that you can make the greatest number of craft cocktails?
     
 -   <b>Recipe Generator:</b> How can the patterns we learn about existing recipes allow us to create new recipe ideas? Similarly, if I like a certain recipe, which other recipes might I like?
 
