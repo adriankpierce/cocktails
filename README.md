@@ -55,19 +55,19 @@ For brevity, only select insights will be examined here. To explore all current 
 ### Research Questions
 
 #### Part I: The Ingredients
-These research questions will focus on what are the ingredients? How often are they used? (for full list of questions and insights, see Python notebook)
+These research questions will focus on the ingredients. What are they? How often are they used? (for full list of questions and insights, see Python notebook)
 
 - For context, this analysis encompasses 466 recipes.
-- Across those recipes, there are 2763 ingredients in total (including duplicates), resulting in a typical recipe containing 6 ingredients. This is more than I personally expected.
+- Across those recipes, there are 2763 ingredients in total (including duplicates), meaning that a typical recipe contains 6 ingredients. This is more than I personally expected.
 - 2763 total ingredients translates to 514 unique ingredients, most of which are Spirits/Liqueurs. While Juices, Syrups, Bitters, and other ingredients are fairly versatile, we see that Spirits/Liqueurs are not -- you will need many different types to make all of these recipes!
 
 ![Alt text](readme_images/analysis_1.png?raw=true)
 
-- Shown another way, few ingredients are highly versatile and many are used only a handful of times. We’ll examine the distribution of ingredients across different categories in detail, but some of “all-stars” so far are Lemon Juice (134 recipes), Lime Juice (123), Angostura Bitters (90), and Simple Syrup (78).
+- Shown another way, few ingredients are highly versatile and many are used only a handful of times. We’ll examine the distribution of ingredients across different categories in detail later on, but some of the “all-stars” so far are Lemon Juice (134 recipes), Lime Juice (123), Angostura Bitters (90), and Simple Syrup (78).
 
 ![Alt text](readme_images/analysis_2.png?raw=true)
 
-- Top 5 ingredients per ingredient category. We’ll take a look at Spirits/Liqueurs below.
+- Top 5 ingredients per ingredient category. Spirits/Liqueurs will be examined separately below.
 
 | Ingredient category | Ingredient       | # of recipes |
 |---------------------|------------------|--------------|
@@ -101,7 +101,7 @@ These research questions will focus on what are the ingredients? How often are t
 
 ![Alt text](readme_images/analysis_3.png?raw=true)
 
-Due to the large variation in ingredient namings for Garnishes (Lemon twist vs lemon wheel vs lemon peel), we can view an imprecise analytical answer to the question of “which garnishes are the most popular through a word cloud visualization.
+Due to the large variation in ingredient namings for Garnishes (Lemon twist vs lemon wheel vs lemon peel), we can view an imprecise analytical answer to the question of “which garnishes are the most popular" through a word cloud visualization.
 
 ![Alt text](readme_images/analysis_4.png?raw=true)
 
@@ -116,7 +116,7 @@ These questions will focus on: how are ingredients arranged to form recipes? To 
 
 ![Alt text](readme_images/analysis_6.png?raw=true)
 
-- (WIP) Numerous types of analysis can be done to estimate how the presence of certain ingredient categories impacts the presence of other ingredient categories (correlation, chi2 hypothesis test, association rules). Below I’ve included a few preliminary bivariate graphs that show a few of the more clear relationships.
+- (WIP) Numerous types of analyses can be done to estimate how the presence of certain ingredient categories impacts the presence of other ingredient categories (correlation, chi2 hypothesis test, association rules). Below I’ve included a few preliminary bivariate graphs that show a few of the more clear relationships.
 
 ![Alt text](readme_images/analysis_7.png?raw=true)
 
@@ -130,10 +130,10 @@ Unfortunately, not much of this tool can be shown on a static GitHub page like t
 
 ### Optimize A Home Bar
 
-Given a budget of X Spirits or Liqueurs that one could buy, which combination would permit the most number of complete recipes to be made? A non-linear solver was used to calculate the following results:
+Given a budget of X Spirits or Liqueurs that one could buy, which combination would permit the most number of complete recipes to be made? A non-linear optimization routine was used to calculate the following results:
 
 
-| If I can only buy X number of Spirits/Liqueurs... | ...I should buy...                                                                                       | ...so that I can make Y number of complete recipes... |
+| If I can only buy X number of Spirits/Liqueurs... | ...I should buy...                                                                                       | ...so that I can make Y number of complete recipes |
 |---------------------------------------------------|----------------------------------------------------------------------------------------------------------|-------------------------------------------------------|
 | 1                                                 | London Dry Gin                                                                                           | 14                                                    |
 | 2                                                 | White Rum, London Dry Gin                                                                                | 25                                                    |
